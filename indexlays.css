@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'MarkOT', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(239, 181, 6),rgb(237, 237, 30));
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 240, 33);
+    margin: 20px 200px;
+    height: 90px;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 100px;
+    margin-left: 30px;
+}
+
+nav button:hover{
+    background: red;
+}
+.lays1photo{
+    width: 1120px;
+    height: 400px;
+    margin: 20px 200px;
+}
+.backgrd2{
+    background-image: url(lays/bg-products.webp);
+    width: 1120px;
+    height: 800px;
+    margin: 20px 200px;
+}
+.products{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin-left: 80px;
+    padding-top: 40px;
+}
+.img1div{
+  overflow: hidden;
+}
+
+.images1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.images1 img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 336px 336px 336px;
+    margin-left: 57px;
+    margin-right: 57px;
+    height: 90px;
+  }
+  .grid-item1{
+    background-color: orange;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+  }
+  .grid-item2{
+    background-color: rgb(143, 239, 239);
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .grid-item3{
+    background-color: maroon;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .grid-container button{
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+    align-content: center;
+    cursor: pointer;
+    background-color: red;
+    font-size: 17px;
+    padding: 2px;
+    margin-left: 5px;
+    font-family: 'MarkOT', sans-serif;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  .grid-container button:hover{
+    background-color: yellow;
+  }
+  .grid-item1 button{
+    margin-top: 70px;
+    transition: background-color 0.5s ease;
+  }
+  .grid-item2 button{
+    margin-top: 50px;
+    transition: background-color 0.5s ease;
+  }
+  .grid-item3 button{
+    margin-top: 50px;
+    transition: background-color 0.5s ease;
+  }
+
+/*----------------------------2nd bag----------------------*/
+.images2{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin-left: 90px;
+    overflow: hidden;
+    
+    
+
+}
+.images2 img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.grid-container2 button{
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+    align-content: center;
+    cursor: pointer;
+    background-color: red;
+    font-size: 17px;
+    padding: 2px;
+    margin-left: 5px;
+    font-family: 'MarkOT', sans-serif;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 319px 319px 319px;
+    margin-left: 90px;
+    margin-right: 12px;
+    height: 110px;
+    color: black;
+}
+.grid-container2 svg{
+  height: 25px;
+  width: 25px;
+}
+.grid-container2 svg:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+
+  .grid-item4{
+    background-color: rgb(250, 242, 21);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+    margin: 5px;
+  }
+  .grid-item5{
+    background-color: rgb(250, 242, 21);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 5px;
+  }
+  .grid-item6{
+    background-color: rgb(250, 242, 21);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 5px;
+  }
+  .grid-container2 button:hover{
+    background-color: rgb(37, 211, 231);
+  }
+  .grid-item4 button{
+    margin-top: 70px;
+    transition: background-color 0.5s ease;
+  }
+  .grid-item5 button{
+    margin-top: 80px;
+    transition: background-color 0.5s ease;
+  }
+  .grid-item6 button{
+    margin-top: 80px;
+    transition: background-color 0.5s ease;
+  }
+  .backgrd3{
+    background-image: url(lays/bg-recipes2.webp);
+    width: 1120px;
+    height: 700px;
+    margin: 20px 200px;
+    margin-top: 40px;
+}
+.backgrd4{
+    background-image: url(lays/bg-videos.webp);
+    width: 1120px;
+    height: 700px;
+    margin: 20px 200px;
+    margin-top: 40px;
+    display: grid;
+}
+.backgrd4 iframe{
+    width: 650px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.backgrd4 h1{
+    margin-left: 694px;
+    margin-bottom: 1000px;
+    font-weight: bolder;
+    font-size: 39px;
+    text-align: center;
+}
+.backgrd5{
+    background-image: url(lays/bg-social.webp);
+    width: 1120px;
+    height: 800px;
+    margin: 20px 200px;
+    margin-top: 40px;
+}
+.backgrd5 img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.footer img{
+  height: 180px;
+  width: 1125px;
+  margin-left: 200px;
+}
+.footerbtn{
+  margin-left: 50px;
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn1{
+  padding-left:260px;
+  padding-top: 30px;
+}
+.footerbtn:hover{
+  background-color: red;
+}
+.footerlogo img{
+  width: 100px;
+  height: 100px;
+}
+.footerlogo{
+  padding-left: 500px;
+  color: black;
+  font-size: 12px;
+}
+.footerlogo p{
+  margin-left: 80px;
+}
+.frame{
+  width: 100px;
+  height: 100px;
+}
+.potato{
+  margin-right: 10px;
+}
+
+/*-------------------------------nav btn mod*/
+.prdts{
+  width: 80px;
+  margin-right: 10px;
+  border: 0;
+    outline: 0;
+    border-radius: 20px;
+    height: 40px;
+    align-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 2px;
+    margin-left: 30px;
+    font-family: 'MarkOT', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.abt{
+  margin-right: 10px;
+  width: 80;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 40px;
+  align-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 2px;
+  margin-left: 5px;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.rps{
+  margin-right: 10px;
+  width: 74;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 40px;
+  align-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 2px;
+  margin-left: 5px;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.ggh{
+  margin-right: 10px;
+  width: 10;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 40px;
+  align-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 2px;
+  margin-left: 5px;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.wwb{
+  width: 10;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 40px;
+  align-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 2px;
+  margin-left: 5px;
+  font-family: 'MarkOT', sans-serif;
+  margin-right: 10px;
+  font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.ptr{
+  margin-right: 10px;
+  width: 10;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 40px;
+  align-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 2px;
+  margin-left: 5px;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+.es{
+  
+  background: transparent;
+  width: 39px;
+  height: 31px;
+  margin-left: 10px;
+  font-weight: bolder;
+  transition: background-color 0.5s ease;
+
+}
+.search{
+  margin-right: 30px;
+  margin-left: 5px;
+  color: black;
+  width: 30px;
+}
+
